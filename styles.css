@@ -115,6 +115,7 @@ button {
     gap: 20px;
 }
 .footer_link {
+    
     display: inline-block;
     color: var(--dark-blue);
     text-align: center;
