@@ -71,7 +71,7 @@ form {
 }
 #form_container {
     position: relative;
-    background-color: var(--lightest-blue);
+    background-color: lightcoral;
     border: 2px solid var(--dark-blue);
     border-radius: 5px;
     padding: 50px 70px;
@@ -104,6 +104,12 @@ button {
 .button_text {
     text-align: center;
 }
+
+.button_font {
+    font-size: larger;
+    font-weight: bolder;
+}
+
 .button_link:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -137,6 +143,7 @@ button {
     height: 100%;
     z-index: -50;
 }
+
 @media (max-width: 1270px) {
     #site_left {
         width: 70%;
